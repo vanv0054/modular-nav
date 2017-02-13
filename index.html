@@ -3,33 +3,32 @@
 <head>
   <meta charset="utf-8">
   <title>Modular nav</title>
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
-  <div class="grid bkd">
+  <header>
 
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-3">
-      <h1 class="logo pad-t-1-2">Solar System</h1>
+    <div class="grid bkd">
+
+      <div class="unit unit-xs-1 unit-s-1 unit-m-2-3">
+        <h1 class="logo pad-t-1-2">Solar System</h1>
+      </div>
+
+      <nav class="unit unit-xs-1 unit-s-1-3 unit-m-1-3 grid-middle">
+        <ul class="nav tera push-1-4 gutter-1-2">
+          <li><a class="current island-1-2" href="#">Planets</a></li>
+          <li><a class="gutter-1-2" href="#">Moons</a></li>
+          <li><a href="#">Exploration</a></li>
+        </ul>
+      </nav>
+
     </div>
 
-    <nav class="unit unit-xs-1 unit-s-1-3 unit-m-1-3 grid-middle">
-      <ul class="nav tera push-1-4 gutter-1-2">
-        <li><a class="current island-1-2" href="#">Planets</a></li>
-        <li><a class="gutter-1-2" href="#">Moons</a></li>
-        <li><a href="#">Exploration</a></li>
-      </ul>
-    </nav>
-
-  </div>
-
-
-
-
-
+  </header>
 
 </body>
 </html>
