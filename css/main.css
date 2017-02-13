@@ -17,15 +17,66 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+.bkd {
+  background-color: #e2e2e2;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav li {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0074d9;
+  display: inline-block;
+}
+
+
+.nav .current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+a:hover {
+  background: #0074d9;
+  color: #fff;
+}
+
+nav {
+  text-align: center;
+}
+
 @media only screen and (min-width: 25em) {
 
-
+  .logo {
+    text-align: center;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
 
+  .logo {
+    text-align: left;
+  }
 
 }
 
